@@ -1,15 +1,16 @@
 import "./App.css";
-import Contacts from "./components/Contacts";
+
+i
+
 
 function App() {
+
   return (
-    <>
-      <div className=" box-border w-full h-full m-0 p-0 bg-bg">
-       <Contacts/>
-      </div>
-    </>
+    <div className=" box-border w-full h-full flex bg-bg justify-center items-center flex-col">
+
+  
+    </div>
   );
 }
-
 
 export default App;
