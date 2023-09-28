@@ -1,7 +1,7 @@
 npm install
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-
+npm install react-icons --save
 export default {
 content: [
 "./index.html",
@@ -26,5 +26,3 @@ harshit fork done
 divyaanshu fork done
 
 mkc
-
-
