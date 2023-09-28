@@ -1,9 +1,9 @@
 const HeroSection = () => {
     return (
       // container
-      <div className=" lg:w-4/5 box-border h-auto pt-36 flex justify-center items-center flex-col">
-        <div className="lg:w-full text-center flex justify-center items-center px-48 flex-col gap-6">
-          <h1 className="text-7xl text-textH text-center w-full h-auto font-bold">
+      <div className=" lg:w-4/5 md:w-full box-border h-auto pt-36 flex justify-center items-center flex-col ">
+        <div className="lg:w-full md:w-full text-center flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-16 text-center">
+          <h1 className="lg:text-7xl md:text-6xl text-5xl text-textH text-center w-full h-auto font-bold">
             Shaping a world with <span>reimagination.</span>
           </h1>
           <p className=" text-gray-300 w-full">
@@ -12,15 +12,15 @@ const HeroSection = () => {
             asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!
           </p>
         </div>
-        <div className="lg:w-full flex justify-center items-center flex-row box-border gap-6 mt-16">
-          <button className=" w-32 h-11 bg-btn rounded-3xl px-4 py-1 text-textH font-semibold hover:scale-105   transition-all duration-500">
+        <div className="md:w-full w-4/5 flex justify-center items-center md:flex-row box-border gap-6 mt-16 flex-col md:p-0 p-8 ">
+          <button className=" md:w-32 h-11 w-full bg-btn rounded-3xl px-4 py-1 text-textH font-semibold hover:scale-105   transition-all duration-500">
             Get started
           </button>
-          <button className="w-32 h-11 bg-HoverDiv rounded-3xl px-4 py-1 text-textH font-semibold   transition-all duration-500 border-[1px] border-gray-700  hover:scale-105   ">
+          <button className="md:w-32 h-11 w-full bg-HoverDiv rounded-3xl px-4 py-1 text-textH font-semibold   transition-all duration-500 border-[1px] border-gray-700  hover:scale-105   ">
             Learn more
           </button>
         </div>
-        <div className=" lg:w-[70%] h-auto mt-16 border-t-[1px] border-t-gray-700  border-b-[1px] border-b-gray-700 flex justify-between items-center mb-16 py-8">
+        <div className=" lg:w-[70%] md:w-4/5   hidden  h-auto mt-16 border-t-[1px] border-t-gray-700  border-b-[1px] border-b-gray-700 md:flex justify-between items-center mb-16 py-8">
           <div className="w-auto h-auto box-border flex justify-center items-start flex-col gap-y-2">
             <h2 className="text-textH font-semibold  text-lg">The lowest price</h2>
             <p className="text-textP">Some text here</p>
