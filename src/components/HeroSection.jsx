@@ -2,7 +2,7 @@ const HeroSection = () => {
     return (
       // container
       <div className=" lg:w-4/5 md:w-full box-border h-auto pt-36 flex justify-center items-center flex-col ">
-        <div className="lg:w-full md:w-full text-center flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-16 text-center">
+        <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-16 text-center">
           <h1 className="lg:text-7xl md:text-6xl text-5xl text-textH text-center w-full h-auto font-bold">
             Shaping a world with <span>reimagination.</span>
           </h1>
@@ -33,6 +33,9 @@ const HeroSection = () => {
             <h2 className="text-textH font-semibold  text-lg">The most loved</h2>
             <p className="text-textP ">Some text here</p>
           </div>
+        </div>
+        <div className="w-4/5 h-auto ">
+          
         </div>
       </div>
     );
