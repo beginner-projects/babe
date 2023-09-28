@@ -1,22 +1,25 @@
-npm install 
-npm install -D tailwindcss
-npx tailwindcss init
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
-
-
-/** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+content: [
+"./index.html",
+"./src/**/*.{js,ts,jsx,tsx}",
+],
+theme: {
+extend: {},
+},
+plugins: [],
 }
 
-
 index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+harshit fork done
