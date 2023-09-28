@@ -1,10 +1,12 @@
 import "./App.css";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <>
-      <div className=" box-border w-full h-full m-0 p-0 bg-bg"></div>
-    </>
+    <div className=" box-border w-full h-full flex bg-bg justify-center items-center flex-col">
+      <HeroSection />
+      
+    </div>
   );
 }
 
