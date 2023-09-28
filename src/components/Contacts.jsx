@@ -1,8 +1,13 @@
+import { Data } from "../Data/Data"
+
 
 
 const Contacts = () => {
   return (
     <div className="bg-bg m-auto py-20">
+        <div>
+          <img src={Data[1].avatars.Img01} alt=""/>
+        </div>
        <div className=" text-textH text-4xl m-auto text-center font-bold ">
         Get Started Now
       </div>
