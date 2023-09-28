@@ -1,7 +1,6 @@
 import "./App.css";
-import NavigationBar from "./components/NavigationBar/NavigationBar";
-
 import HeroSection from "./components/HeroSection";
+// import Contacts from "./components/Contacts";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 
 function App() {
@@ -9,6 +8,7 @@ function App() {
     <div className=" box-border w-full h-full flex bg-bg justify-center items-center flex-col">
       <NavigationBar />
       <HeroSection />
+      {/* <Contacts /> */}
     </div>
   );
 }

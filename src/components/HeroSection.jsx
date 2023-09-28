@@ -22,7 +22,7 @@ const HeroSection = () => {
           Learn more
         </button>
       </div>
-      <div className=" lg:w-[70%] md:w-4/5   hidden  h-auto mt-16 border-t-[1px] border-t-gray-700  border-b-[1px] border-b-gray-700 md:flex justify-between items-center mb-16 py-8">
+      <div className=" lg:w-[70%] md:w-4/5   hidden  h-auto mt-16 border-t-[1px] border-t-gray-700  border-b-[1px] border-b-gray-700 md:flex justify-between items-center  py-8">
         <div className="w-auto h-auto box-border flex justify-center items-start flex-col gap-y-2">
           <h2 className="text-textH font-semibold  text-lg">
             The lowest price

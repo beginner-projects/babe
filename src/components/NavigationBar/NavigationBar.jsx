@@ -14,30 +14,35 @@ const NavigationBar = () => {
       </div>
 
       <button
-        className="flex md:hidden gap-2 flex-col text-lg align-middle justify-center text-textH "
+        className="flex md:hidden gap-2 flex-col text-lg items-center justify-center text-textH "
         onClick={() => {
           setIsOpen(!isOpen);
         }}
       >
         <div
-          className="w-10 h-1 bg-gray-400 "
+          className="w-8 h-[0.10rem] bg-gray-400 transition-all duration-300"
           style={
             isOpen
               ? {
                   transform: "rotate(-45deg)",
+                  height: "0.15rem",
                 }
               : {}
           }
         ></div>
         <div
-          className="w-10 h-1 bg-gray-400 relative bottom-3 transition-all "
-          style={isOpen ? { transform: "rotate(45deg)" } : { bottom: "0" }}
+          className="w-8 h-1 bg-gray-400 relative bottom-[0.71rem] transition-all duration-300"
+          style={
+            isOpen
+              ? { transform: "rotate(45deg)", height: "0.15rem" }
+              : { bottom: "0" }
+          }
         ></div>
       </button>
 
       {isOpen && (
-        <div className="absolute h-screen w-screen right-0 top-16 bg-bg ">
-          <div className="flex justify-start align-middle flex-col bg-[#6d6b75aa] w-[90%] rounded-lg m-auto my-7 gap-5 p-7">
+        <div className="absolute h-screen w-screen right-0 top-16 bg-bg transition-all delay-700 ">
+          <div className="flex justify-start align-middle flex-col bg-[#293041] w-[90%] rounded-3xl m-auto my-7 gap-6 p-7 border-[1px] border-gray-700">
             {NavigationData.map((value, key) => {
               return (
                 <div key={key} className="m-0 h-auto ">
