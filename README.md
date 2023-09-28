@@ -1,18 +1,15 @@
-npm install 
+npm install
 npm install -D tailwindcss
 npx tailwindcss init
 
-
-
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} \*/
 export default {
-  content: ["./src/**/*.{html,js}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+content: ["./src/**/\*.{html,js}"],
+theme: {
+extend: {},
+},
+plugins: [],
 }
-
 
 index.css
 
@@ -20,3 +17,4 @@ index.css
 @tailwind components;
 @tailwind utilities;
 
+harshit fork done
