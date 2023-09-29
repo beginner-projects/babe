@@ -40,7 +40,7 @@ const Contacts = () => {
         Be part of millions people around the world using tailus in modern User
         Interfaces.
       </div>
-      <div className="w-4/5 m-auto  flex justify-center items-center md:flex-row box-border gap-6  flex-col   ">
+      <div className="w-full m-auto  flex justify-center items-center md:flex-row box-border gap-6  flex-col   ">
         <button className=" md:w-32 h-11 w-full bg-btn rounded-3xl px-4 py-1 text-textH font-semibold hover:scale-105   transition-all duration-500">
           Get started
         </button>

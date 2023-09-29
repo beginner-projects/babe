@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className=" blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
       </div>
-      <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-16 text-center">
+      <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-8 text-center">
         <h1 className="lg:text-7xl md:text-6xl text-5xl text-textH text-center w-full h-auto font-bold">
           Shaping a world with <span>reimagination.</span>
         </h1>
@@ -23,7 +23,7 @@ const HeroSection = () => {
           asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!
         </p>
       </div>
-      <div className="md:w-full w-4/5 flex justify-center items-center md:flex-row box-border gap-6 mt-16 flex-col md:p-0 p-8 ">
+      <div className="w-full flex justify-center items-center md:flex-row box-border gap-6 mt-16 flex-col md:p-0 p-8 ">
         <button className=" md:w-32 h-11 w-full bg-btn rounded-3xl px-4 py-1 text-textH font-semibold hover:scale-105   transition-all duration-500">
           Get started
         </button>
