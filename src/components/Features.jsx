@@ -1,6 +1,6 @@
-import { featureData, technologyIntro } from "../Data/Data";
-import { BsStars } from "react-icons/bs";
-import { FaArrowRight } from "react-icons/fa6";
+import { featureData, technologyIntro } from '../Data/Data';
+import { BsStars } from 'react-icons/bs';
+import { FaArrowRight } from 'react-icons/fa6';
 const Features = () => {
   return (
     <section className="w-[80%] m-auto my-32" id="feature">
@@ -20,8 +20,8 @@ const Features = () => {
               key={key}
               className={
                 value.bg
-                  ? "group py-10 px-10 bg-gray-800 group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800"
-                  : "group py-10 px-10 bg-transparent group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800"
+                  ? 'group py-10 px-10 bg-gray-800 group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800'
+                  : 'group py-10 px-10 bg-transparent group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800'
               }
             >
               <div className="img h-12 w-12 overflow-hidden">

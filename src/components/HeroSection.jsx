@@ -1,12 +1,26 @@
-import { Clients } from "../Data/Data";
+import { Clients } from '../Data/Data';
 const HeroSection = () => {
   return (
     // container
     <div
+<<<<<<< HEAD
       className=" lg:w-4/5 md:w-full box-border h-auto pt-36 flex justify-center items-center flex-col "
       id="hero"
     >
       <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-4 text-center">
+=======
+      className=" lg:w-4/5 md:w-full box-border h-auto pt-24 flex justify-center items-center flex-col "
+      id="hero"
+    >
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 md:grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20 hidden"
+      >
+        <div className=" blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+      </div>
+      <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-8 text-center">
+>>>>>>> 110e1f169846234254d70bc1d62a112376bce693
         <h1 className="lg:text-7xl md:text-6xl text-5xl text-textH text-center w-full h-auto font-bold">
           Shaping a world with <span>reimagination.</span>
         </h1>
@@ -16,11 +30,11 @@ const HeroSection = () => {
           asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!
         </p>
       </div>
-      <div className="md:w-full w-4/5 flex justify-center items-center md:flex-row box-border gap-6 mt-16 flex-col md:p-0 p-8 ">
-        <button className=" md:w-32 h-11 w-full bg-btn rounded-3xl px-4 py-1 text-textH font-semibold hover:scale-105   transition-all duration-500">
+      <div className="w-full flex justify-center items-center md:flex-row box-border gap-6 mt-16 flex-col md:p-0 p-8 ">
+        <button className="  md:w-32 h-11 w-full bg-btn rounded-3xl px-4 py-1 text-textH font-semibold hover:scale-105   transition-all duration-500 z-50">
           Get started
         </button>
-        <button className="md:w-32 h-11 w-full bg-HoverDiv rounded-3xl px-4 py-1 text-textH font-semibold   transition-all duration-500 border-[1px] border-gray-700  hover:scale-105   ">
+        <button className="md:w-32 h-11 w-full bg-HoverDiv rounded-3xl px-4 py-1 text-textH font-semibold   transition-all duration-500 border-[1px] border-gray-700  hover:scale-105  z-50 ">
           Learn more
         </button>
       </div>

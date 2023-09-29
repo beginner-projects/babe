@@ -1,18 +1,18 @@
-import avtar1 from "../assets/images/avatars/avatar-1.webp";
-import avtar2 from "../assets/images/avatars/avatar-2.webp";
-import avtar3 from "../assets/images/avatars/avatar-3.webp";
-import avtar4 from "../assets/images/avatars/avatar-4.webp";
-import avtar from "../assets/images/avatars/avatar.webp";
-import airbnb from "../assets/images/clients/airbnb.svg";
-import ge from "../assets/images/clients/ge.svg";
-import googleCloud from "../assets/images/clients/google-cloud.svg";
-import google from "../assets/images/clients/google.svg";
-import microsoft from "../assets/images/clients/microsoft.svg";
-import netflix from "../assets/images/clients/netflix.svg";
-import iconfirst from "../assets/images/icons/iconkechi.png";
-import iconSecond from "../assets/images/icons/iconfluit.png";
-import iconThird from "../assets/images/icons/iconget.png";
-import iconForth from "../assets/images/icons/iconWatch.png";
+import avtar1 from '../assets/images/avatars/avatar-1.webp';
+import avtar2 from '../assets/images/avatars/avatar-2.webp';
+import avtar3 from '../assets/images/avatars/avatar-3.webp';
+import avtar4 from '../assets/images/avatars/avatar-4.webp';
+import avtar from '../assets/images/avatars/avatar.webp';
+import airbnb from '../assets/images/clients/airbnb.svg';
+import ge from '../assets/images/clients/ge.svg';
+import googleCloud from '../assets/images/clients/google-cloud.svg';
+import google from '../assets/images/clients/google.svg';
+import microsoft from '../assets/images/clients/microsoft.svg';
+import netflix from '../assets/images/clients/netflix.svg';
+import iconfirst from '../assets/images/icons/iconkechi.png';
+import iconSecond from '../assets/images/icons/iconfluit.png';
+import iconThird from '../assets/images/icons/iconget.png';
+import iconForth from '../assets/images/icons/iconWatch.png';
 
 export const avtaarsImg = {
   img1: avtar1,

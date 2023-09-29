@@ -1,6 +1,6 @@
-import a1 from "../assets/images/a1.jpg";
-import a2 from "../assets/images/a2.jpg";
-import a3 from "../assets/images/a3.jpg";
+import a1 from '../assets/images/a1.jpg';
+import a2 from '../assets/images/a2.jpg';
+import a3 from '../assets/images/a3.jpg';
 
 const LatestArticleSection = () => {
   return (

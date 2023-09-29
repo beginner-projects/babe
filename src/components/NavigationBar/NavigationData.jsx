@@ -1,26 +1,25 @@
 export const NavCompany = {
-  title: "Astrolus",
+  title: 'Astrolus',
 };
 
 export const NavigationData = [
   {
-    "NavItems": [
-    
+    NavItems: [
       {
-        Link: "#feature",
-        PageName: "Feature",
+        Link: '#feature',
+        PageName: 'Feature',
       },
       {
-        Link: "#solutions",
-        PageName: "Solutions",
+        Link: '#solutions',
+        PageName: 'Solutions',
       },
       {
-        Link: "#review",
-        PageName: "Review",
+        Link: '#review',
+        PageName: 'Review',
       },
       {
-        Link: "#contact",
-        PageName: "Contact Me",
+        Link: '#contact',
+        PageName: 'Contact Me',
       },
     ],
   },
