@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { NavCompany, NavigationData } from './NavigationData';
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const NavItems = NavigationData[0].NavItems;
   console.log(NavigationData[0].NavItems.Link);
-  
 
   return (
     <div className=" Nagation md:w-[80%] w-full h-20 m-auto py-6 md:px-0 px-8 flex justify-between align-middle z-50 md:border-b-0 border-b border-b-white/5">
@@ -58,13 +57,13 @@ const NavigationBar = () => {
               return (
                 <div key={key} className="m-0 h-auto ">
                   <Link
-               to={value.Link}
-                spy={true}
-              smooth={true}
-                offset={-100}
-              duration={700}
-     className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100 cursor-pointer"
-              >
+                    to={value.Link}
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={700}
+                    className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100 cursor-pointer"
+                  >
                     {value.PageName}
                   </Link>
                 </div>
@@ -81,12 +80,12 @@ const NavigationBar = () => {
           return (
             <div key={key} className="m-auto h-auto">
               <Link
-               to={items.Link}
+                to={items.Link}
                 spy={true}
-              smooth={true}
+                smooth={true}
                 offset={-100}
-              duration={700}
-     className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100 cursor-pointer"
+                duration={700}
+                className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100 cursor-pointer"
               >
                 {items.PageName}
               </Link>
