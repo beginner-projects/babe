@@ -4,7 +4,7 @@ import {
   FaYoutube,
   FaInstagram,
   FaLinkedin,
-} from "react-icons/fa6";
+} from 'react-icons/fa6';
 const Footer = () => {
   return (
     <footer className="w-full h-auto mt-36 flex justify-center items-center md:flex-col gap-8 flex-wrap">
@@ -72,7 +72,10 @@ const Footer = () => {
         </ul>
       </div>
       <div className=" w-4/5 h-auto flex justify-evenly items-center border-t border-gray-700 md:flex-row flex-col basis-full ">
-        <p className="my-4 text-gray-300 box-border">This Website is Crafted By <span className=" font-extrabold text-btn">AuraDevelopers</span> </p>
+        <p className="my-4 text-gray-300 box-border">
+          This Website is Crafted By{' '}
+          <span className=" font-extrabold text-btn">AuraDevelopers</span>{' '}
+        </p>
       </div>
     </footer>
   );

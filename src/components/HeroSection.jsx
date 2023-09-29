@@ -1,9 +1,18 @@
-import { Clients } from "../Data/Data";
+import { Clients } from '../Data/Data';
 const HeroSection = () => {
-  
   return (
     // container
-    <div className=" lg:w-4/5 md:w-full box-border h-auto pt-36 flex justify-center items-center flex-col " id="hero">
+    <div
+      className=" lg:w-4/5 md:w-full box-border h-auto pt-24 flex justify-center items-center flex-col "
+      id="hero"
+    >
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 md:grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20 hidden"
+      >
+        <div className=" blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
+        <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
+      </div>
       <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-16 text-center">
         <h1 className="lg:text-7xl md:text-6xl text-5xl text-textH text-center w-full h-auto font-bold">
           Shaping a world with <span>reimagination.</span>
