@@ -4,7 +4,7 @@ import {MdLocationOn} from "react-icons/md"
 import {AiFillPieChart} from "react-icons/ai"
 const Midbox = () => {
   return (
-    <div className="flex flex-wrap-reverse justify-center items-center my-20">
+    <div className="flex flex-wrap-reverse justify-center items-center my-20" id="#Solution">
       <div className="text lg:basis-1/2 flex-shrink lg:pl-20 md:pl-5 ">
         <button className="text-PieI text-xl ml-5"><AiFillPieChart></AiFillPieChart></button>
         <p className="text-textH text-4xl p-5 font-bold">Nuxt development is carried out by  passionate developers</p>
