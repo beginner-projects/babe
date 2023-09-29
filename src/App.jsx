@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Contacts from "./components/Contacts";
 import LatestArticleSection from "./components/LatestArticleSection";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
+import Testimonial from "./components/Testimonial/Testimonial"
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <HeroSection />
       <Contacts />
       <LatestArticleSection />
+      <Testimonial />
+
     </div>
   );
 }
