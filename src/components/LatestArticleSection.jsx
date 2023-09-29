@@ -4,17 +4,17 @@ import a3 from "../assets/images/a3.jpg";
 
 const LatestArticleSection = () => {
   return (
-    <div className="bg-bg m-auto py-20">
-      <div className=" text-textH text-4xl m-auto text-center font-bold ">
+    <div className="bg-bg  py-20 flex justify-center items-center flex-col">
+      <div className=" text-textH md:text-5xl text-4xl m-auto text-center font-bold ">
         Latest Article
       </div>
-      <div className="text-center text-gray-400 py-4 ">
-        Quam hic dolore cumque voluptate rerum beatae et quae,tempore <br />{" "}
-        sunt, debitis dolorum officia aliquid explicabo? Excepturi, voluptate?
+      <div className="text-center text-gray-400 py-4 lg:w-3/5  w-4/5 flex justify-center items-center">
+        Quam hic dolore cumque voluptate rerum beatae et quae,tempore sunt,
+        debitis dolorum officia aliquid explicabo? Excepturi, voluptate?
       </div>
-      <div className="boxes flex flex-wrap-reverse my-7 justify-evenly  ">
-        <div className=" w-72 bg-HoverDiv rounded-3xl border-gray-600 border-[1px] my-4">
-          <div className="overflow-hidden w-56 m-auto rounded-xl h-64 my-7">
+      <div className="boxes  my-7 w-full grid lg:gap-8 md:grid-cols-2 lg:grid-cols-3 place-items-center md:px-8">
+        <div className="lg:w-96 md:w-80 w-72 bg-gray-800 rounded-3xl border-gray-600 border-[1px] my-4">
+          <div className="overflow-hidden lg:w-80 md:w-72 w-64 m-auto rounded-xl lg:h-64  md:h-60 h-56 my-7">
             <img
               src={a1}
               alt=""
@@ -30,8 +30,8 @@ const LatestArticleSection = () => {
           </div>
           <button className="pl-7 text-blue-400 mb-7">Read More</button>
         </div>
-        <div className=" w-72 bg-HoverDiv rounded-3xl border-gray-600 border-[1px] my-4">
-          <div className="overflow-hidden w-56 m-auto rounded-xl h-64 my-7">
+        <div className="lg:w-96 md:w-80 w-72 bg-gray-800 rounded-3xl border-gray-600 border-[1px] my-4">
+          <div className="overflow-hidden lg:w-80 md:w-72 w-64 m-auto rounded-xl lg:h-64  md:h-60 h-56 my-7">
             <img
               src={a3}
               alt=""
@@ -47,8 +47,8 @@ const LatestArticleSection = () => {
           </div>
           <button className="pl-7 text-blue-400 mb-7">Read More</button>
         </div>
-        <div className=" w-72 bg-HoverDiv rounded-3xl border-gray-600 border-[1px] my-4">
-          <div className="overflow-hidden w-56 m-auto rounded-xl h-64 my-7">
+        <div className="lg:w-96 md:w-80 w-72 bg-gray-800 rounded-3xl border-gray-600 border-[1px] my-4">
+          <div className="overflow-hidden lg:w-80 md:w-72 w-64 m-auto rounded-xl lg:h-64  md:h-60 h-56 my-7">
             <img
               src={a2}
               alt=""
