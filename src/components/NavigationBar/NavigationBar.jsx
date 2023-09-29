@@ -1,9 +1,13 @@
 import { useState } from 'react';
 import { NavCompany, NavigationData } from './NavigationData';
+import { Link } from "react-scroll";
+
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const NavItems = NavigationData[0].NavItems;
   console.log(NavigationData[0].NavItems.Link);
+  
+
   return (
     <div className=" Nagation md:w-[80%] w-full h-20 m-auto py-6 md:px-0 px-8 flex justify-between align-middle z-50 md:border-b-0 border-b border-b-white/5">
       <div className="text-textH text-2xl font-extrabold flex place-items-center gap-3">
@@ -53,12 +57,16 @@ const NavigationBar = () => {
               console.log(value);
               return (
                 <div key={key} className="m-0 h-auto ">
-                  <a
-                    href={value.Link}
-                    className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100"
-                  >
+                  <Link
+               to={value.Link}
+                spy={true}
+              smooth={true}
+                offset={-100}
+              duration={700}
+     className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100 cursor-pointer"
+              >
                     {value.PageName}
-                  </a>
+                  </Link>
                 </div>
               );
             })}
@@ -72,12 +80,16 @@ const NavigationBar = () => {
         {NavItems.map((items, key) => {
           return (
             <div key={key} className="m-auto h-auto">
-              <a
-                href={items.Link}
-                className="text-textP  hover:text-textH text-md transition-all duration-100"
+              <Link
+               to={items.Link}
+                spy={true}
+              smooth={true}
+                offset={-100}
+              duration={700}
+     className="text-[#b8b2b2] hover:text-textH text-lg w-36 transition-all duration-100 cursor-pointer"
               >
                 {items.PageName}
-              </a>
+              </Link>
             </div>
           );
         })}

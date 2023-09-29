@@ -6,19 +6,19 @@ export const NavigationData = [
   {
     NavItems: [
       {
-        Link: '#feature',
+        Link: 'feature',
         PageName: 'Feature',
       },
       {
-        Link: '#solutions',
+        Link: 'solutions',
         PageName: 'Solutions',
       },
       {
-        Link: '#review',
+        Link: 'review',
         PageName: 'Review',
       },
       {
-        Link: '#contact',
+        Link: 'contact',
         PageName: 'Contact Me',
       },
     ],
