@@ -3,11 +3,8 @@ import HeroSection from "./components/HeroSection";
 import Contacts from "./components/Contacts";
 import LatestArticleSection from "./components/LatestArticleSection";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
+import Testimonial from "./components/Testimonial/Testimonial";
 import Features from "./components/Features";
-
-import Midbox from "./components/Midbox";
-
-
 
 function App() {
   return (
@@ -17,7 +14,7 @@ function App() {
       <Features />
       <Contacts />
       <LatestArticleSection />
-      <Midbox/>
+      <Testimonial />
     </div>
   );
 }

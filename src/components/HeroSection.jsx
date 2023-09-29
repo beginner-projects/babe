@@ -1,6 +1,6 @@
 import { Clients } from "../Data/Data";
 const HeroSection = () => {
-  console.log(Clients);
+  
   return (
     // container
     <div className=" lg:w-4/5 md:w-full box-border h-auto pt-36 flex justify-center items-center flex-col ">
