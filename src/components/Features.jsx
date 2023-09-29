@@ -1,8 +1,9 @@
 import { featureData, technologyIntro } from "../Data/Data";
 import { BsStars } from "react-icons/bs"; 
+import { FaArrowRight } from "react-icons/fa6";
 const Features = () => {
   return (
-    <div className="w-[80%] m-auto my-32">
+    <div className="w-[80%] m-auto my-32" id="#Feature">
       <div className="intro my-16">
         <BsStars className="text-2xl text-accent my-9" />
         <h1 className="text-textH font-extrabold text-4xl  my-9 w-full md:w-[40rem]">
@@ -19,11 +20,11 @@ const Features = () => {
               key={key}
               className={
                 value.bg
-                  ? "group py-10 px-4 bg-gray-800 group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800"
-                  : "group py-10 px-4 bg-transparent group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800"
+                  ? "group py-10 px-10 bg-gray-800 group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800"
+                  : "group py-10 px-10 bg-transparent group-hover:shadow-2xl group-hover:shadow-gray-600/10 border-solid border-[1px] border-gray-700 hover:bg-gray-800"
               }
             >
-              <div className="img h-16 w-16 overflow-hidden">
+              <div className="img h-12 w-12 overflow-hidden">
                 <img
                   className="h-full w-full object-cover"
                   src={value.img}
@@ -40,10 +41,10 @@ const Features = () => {
               </div>
               <a
                 href=""
-                className="text-textP text-base mt-12 mb-3 flex group-hover:text-accent"
+                className="text-textP text-base mt-12 mb-3 flex align-middle gap-28  group-hover:text-accent"
               >
-                <button className="">{value.btn}</button>
-                <div className="icon"></div>
+                <div className="">{value.btn}</div>
+                <div className="icon mt-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-8 transition-all duration-700"><FaArrowRight/></div>
               </a>
             </div>
           );
