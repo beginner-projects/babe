@@ -5,8 +5,8 @@ import LatestArticleSection from "./components/LatestArticleSection";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Features from "./components/Features";
-import Footer from "./components/Footer"
-import Midbox from "./components/Midbox"
+import Footer from "./components/Footer";
+import Midbox from "./components/Midbox";
 
 function App() {
   return (
@@ -14,14 +14,12 @@ function App() {
       <NavigationBar />
       <HeroSection />
       <Features />
-      <Midbox/>
+      <Midbox />
       <Testimonial />
       <Contacts />
       <LatestArticleSection />
-      
-      
-      <Footer />
 
+      <Footer />
     </div>
   );
 }

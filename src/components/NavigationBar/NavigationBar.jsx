@@ -3,7 +3,7 @@ import { NavCompany, NavigationData } from "./NavigationData";
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const NavItems = NavigationData[0].NavItems;
-  console.log( NavigationData[0].NavItems.Link)
+  console.log(NavigationData[0].NavItems.Link);
   return (
     <div className=" Nagation w-[80%] h-20 m-auto py-6 flex justify-between align-middle">
       <div className="text-textH text-2xl font-extrabold flex place-items-center gap-3">
@@ -45,7 +45,7 @@ const NavigationBar = () => {
         <div className="absolute h-screen w-screen right-0 top-16 bg-bgtransition-all delay-700 ">
           <div className="flex justify-start align-middle flex-col bg-[#293041] w-[90%] rounded-3xl m-auto my-7 gap-6 p-7 border-[1px] border-gray-700">
             {NavItems.map((value, key) => {
-              console.log(value)
+              console.log(value);
               return (
                 <div key={key} className="m-0 h-auto ">
                   <a
@@ -69,7 +69,7 @@ const NavigationBar = () => {
             <div key={key} className="m-auto h-auto">
               <a
                 href={items.Link}
-                className="text-textP hover:text-textH text-lg"
+                className="text-textP hover:text-textH text-lg scroll-smooth transition-all delay-1000"
               >
                 {items.PageName}
               </a>
