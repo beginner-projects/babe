@@ -40,7 +40,7 @@ const HeroSection = () => {
           <p className="text-textP ">Some text here</p>
         </div>
       </div>
-      <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:w-full  md:w-4/5">
+      <div className="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:w-full  w-4/5">
         <div className="p-4 grayscale transition duration-200 hover:grayscale-0 flex justify-center items-center">
           <img src={Clients.img5} alt="" className="w-auto h-12 mx-auto" />
         </div>

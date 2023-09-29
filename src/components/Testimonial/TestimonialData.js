@@ -23,7 +23,7 @@ export const TestData = [
     img:avtar2,
   },
   {
-    Name: "Henry Doe",
+    Name: "Horny Doe",
     Position: "Mobile dev",
     Description: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.`,
     img:avtar3,
