@@ -1,7 +1,7 @@
 import { featureData, technologyIntro } from "../Data/Data";
 const Features = () => {
   return (
-    <div className="w-[80%] m-auto my-16">
+    <div className="w-[80%] m-auto my-36">
       <div className="intro my-16">
         <h1 className="text-textH font-extrabold text-4xl  my-9 w-full md:w-[40rem]">
           {technologyIntro.title}
