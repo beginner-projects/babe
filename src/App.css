@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Urbanist', sans-serif;
+  scrollbar-width: none ;
 }
 
 ::selection {
