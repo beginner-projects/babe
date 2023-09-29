@@ -1,10 +1,12 @@
 import pie from "../assets/images/pie.svg"
 import {BiSolidMessageAltDetail} from "react-icons/bi"
 import {MdLocationOn} from "react-icons/md"
+import {AiFillPieChart} from "react-icons/ai"
 const Midbox = () => {
   return (
     <div className="flex flex-wrap-reverse justify-center items-center my-20">
       <div className="text lg:basis-1/2 flex-shrink lg:pl-20 md:pl-5 ">
+        <button className="text-PieI text-xl ml-5"><AiFillPieChart></AiFillPieChart></button>
         <p className="text-textH text-4xl p-5 font-bold">Nuxt development is carried out by  passionate developers</p>
         <p className="text-textP p-5">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
         <p className="text-textP px-5">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
