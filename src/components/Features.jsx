@@ -1,8 +1,10 @@
 import { featureData, technologyIntro } from "../Data/Data";
+import { BsStars } from "react-icons/bs"; 
 const Features = () => {
   return (
-    <div className="w-[80%] m-auto my-36">
+    <div className="w-[80%] m-auto my-32">
       <div className="intro my-16">
+        <BsStars className="text-2xl text-accent my-9" />
         <h1 className="text-textH font-extrabold text-4xl  my-9 w-full md:w-[40rem]">
           {technologyIntro.title}
         </h1>
