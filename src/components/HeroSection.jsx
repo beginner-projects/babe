@@ -3,12 +3,6 @@ const HeroSection = () => {
   return (
     // container
     <div
-<<<<<<< HEAD
-      className=" lg:w-4/5 md:w-full box-border h-auto pt-36 flex justify-center items-center flex-col "
-      id="hero"
-    >
-      <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-4 text-center">
-=======
       className=" lg:w-4/5 md:w-full box-border h-auto pt-24 flex justify-center items-center flex-col "
       id="hero"
     >
@@ -20,7 +14,6 @@ const HeroSection = () => {
         <div className="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
       </div>
       <div className="lg:w-full md:w-full  flex justify-center items-center lg:px-48 md:px-16 flex-col gap-6 px-8 text-center">
->>>>>>> 110e1f169846234254d70bc1d62a112376bce693
         <h1 className="lg:text-7xl md:text-6xl text-5xl text-textH text-center w-full h-auto font-bold">
           Shaping a world with <span>reimagination.</span>
         </h1>
