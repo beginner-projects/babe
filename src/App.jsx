@@ -6,6 +6,7 @@ import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Features from "./components/Features";
 import Footer from "./components/Footer"
+import Midbox from "./components/Midbox"
 
 function App() {
   return (
@@ -13,9 +14,12 @@ function App() {
       <NavigationBar />
       <HeroSection />
       <Features />
+      <Midbox/>
+      <Testimonial />
       <Contacts />
       <LatestArticleSection />
-      <Testimonial />
+      
+      
       <Footer />
 
     </div>

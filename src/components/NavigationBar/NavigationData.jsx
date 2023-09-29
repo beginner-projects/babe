@@ -4,15 +4,24 @@ export const NavCompany = {
 
 export const NavigationData = [
   {
-    item: "Features",
-    link: "#",
-  },
-  {
-    item: "Solution",
-    link: "#",
-  },
-  {
-    item: "Reviews",
-    link: "#",
+    "NavItems": [
+    
+      {
+        Link: "#feature",
+        PageName: "Feature",
+      },
+      {
+        Link: "#solutions",
+        PageName: "Solutions",
+      },
+      {
+        Link: "#review",
+        PageName: "Review",
+      },
+      {
+        Link: "#contact",
+        PageName: "Contact Me",
+      },
+    ],
   },
 ];

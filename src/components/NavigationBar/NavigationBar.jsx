@@ -2,7 +2,8 @@ import { useState } from "react";
 import { NavCompany, NavigationData } from "./NavigationData";
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const NavItems = NavigationData[0].NavItems;
+  console.log( NavigationData[0].NavItems.Link)
   return (
     <div className=" Nagation w-[80%] h-20 m-auto py-6 flex justify-between align-middle">
       <div className="text-textH text-2xl font-extrabold flex place-items-center gap-3">
@@ -41,16 +42,17 @@ const NavigationBar = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute h-screen w-screen right-0 top-16 bg-bg transition-all delay-700 ">
+        <div className="absolute h-screen w-screen right-0 top-16 bg-bgtransition-all delay-700 ">
           <div className="flex justify-start align-middle flex-col bg-[#293041] w-[90%] rounded-3xl m-auto my-7 gap-6 p-7 border-[1px] border-gray-700">
-            {NavigationData.map((value, key) => {
+            {NavItems.map((value, key) => {
+              console.log(value)
               return (
                 <div key={key} className="m-0 h-auto ">
                   <a
-                    href={value.link}
+                    href={value.Link}
                     className="text-[#b8b2b2] hover:text-textH text-lg w-36"
                   >
-                    {value.item}
+                    {value.PageName}
                   </a>
                 </div>
               );
@@ -62,14 +64,14 @@ const NavigationBar = () => {
         </div>
       )}
       <div className="hidden md:flex align-middle justify-around gap-7">
-        {NavigationData.map((value, key) => {
+        {NavItems.map((items, key) => {
           return (
             <div key={key} className="m-auto h-auto">
               <a
-                href={value.link}
+                href={items.Link}
                 className="text-textP hover:text-textH text-lg"
               >
-                {value.item}
+                {items.PageName}
               </a>
             </div>
           );

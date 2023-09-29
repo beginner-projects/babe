@@ -1,9 +1,9 @@
 import { featureData, technologyIntro } from "../Data/Data";
-import { BsStars } from "react-icons/bs"; 
+import { BsStars } from "react-icons/bs";
 import { FaArrowRight } from "react-icons/fa6";
 const Features = () => {
   return (
-    <div className="w-[80%] m-auto my-32" id="#Feature">
+    <section className="w-[80%] m-auto my-32" id="feature">
       <div className="intro my-16">
         <BsStars className="text-2xl text-accent my-9" />
         <h1 className="text-textH font-extrabold text-4xl  my-9 w-full md:w-[40rem]">
@@ -44,13 +44,15 @@ const Features = () => {
                 className="text-textP text-base mt-12 mb-3 flex align-middle gap-28  group-hover:text-accent"
               >
                 <div className="">{value.btn}</div>
-                <div className="icon mt-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-8 transition-all duration-700"><FaArrowRight/></div>
+                <div className="icon mt-1 opacity-0 group-hover:opacity-100 group-hover:translate-x-8 transition-all duration-700">
+                  <FaArrowRight />
+                </div>
               </a>
             </div>
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

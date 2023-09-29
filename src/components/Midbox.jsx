@@ -4,9 +4,11 @@ import {MdLocationOn} from "react-icons/md"
 import {AiFillPieChart} from "react-icons/ai"
 const Midbox = () => {
   return (
-    <div className="flex flex-wrap-reverse justify-center items-center my-20" id="#Solution">
-      <div className="text lg:basis-1/2 flex-shrink lg:pl-20 md:pl-5 ">
-        <button className="text-PieI text-xl ml-5"><AiFillPieChart></AiFillPieChart></button>
+     <div className="w-4/5 m-auto my-16" id="solutions"><button className="text-PieI text-xl ml-5"><AiFillPieChart></AiFillPieChart></button>
+    <div className="flex flex-wrap-reverse justify-center items-center w-full" >
+      
+      <div className="text lg:basis-1/2 flex-shrink   ">
+        
         <p className="text-textH text-4xl p-5 font-bold">Nuxt development is carried out by  passionate developers</p>
         <p className="text-textP p-5">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
         <p className="text-textP px-5">Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
@@ -29,6 +31,7 @@ const Midbox = () => {
       <div className="img flex-shrink basis-1/2  ">
         <img src={pie} alt="" className="  md:m-auto md:w-[34rem] md:h-[34rem]   sm:w-[34rem] sm:h-[34rem]  "/>
       </div>
+    </div>
     </div>
   )
 }

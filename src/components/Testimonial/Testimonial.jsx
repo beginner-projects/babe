@@ -2,7 +2,7 @@ import { TestData as Data } from "./TestimonialData";
 
 const Testimonial = () => {
   return (
-    <div className="w-4/5 h-auto box-border flex justify-center items-center flex-col">
+    <div className="w-4/5 h-auto box-border flex justify-center items-center flex-col" id="review">
       <h2 className="md:text-5xl text-3xl font-bold text-textH mt-16 ">
         We have only fans.
       </h2>

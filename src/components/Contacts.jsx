@@ -4,7 +4,7 @@ import {avtaarsImg} from "../Data/Data"
 
 const Contacts = () => {
   return (
-    <div className="bg-bg m-auto py-60 flex-col justify-center items-center mx-5">
+    <div className="bg-bg m-auto py-60 flex-col justify-center items-center mx-5" id="contact">
         <div className="flex rounded-full justify-center mb-12">
           <img src={avtaarsImg.img1} alt="" className="rounded-full w-12 h-12 scale-95 "/>
           <img src={avtaarsImg.img2} alt="" className="rounded-full w-12 h-12 scale-125 z-10"/>
