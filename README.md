@@ -1,10 +1,12 @@
 # ⚛️ React-JS PROJECTS
 
-![Astrolus Clone]()
+![Astrolus Clone](https://github.com/Ayusht777/Astrolus_Clone/assets/106388215/7d88504e-381b-43c8-affc-157b8be30ab1)
 
 ## 💻Full DESKTOP PREVIEW
+![](https://github.com/Ayusht777/Astrolus_Clone/assets/106388215/c92cd5a5-8c4a-46b2-9b36-a58860599531)
 
 ## 💻Full MOBILE PREVIEW
+![](https://github.com/Ayusht777/Astrolus_Clone/assets/106388215/47c9c8f3-ddb5-4fc2-b151-b75b0ffaed35)
 
 ## 🚀 Overview
 
